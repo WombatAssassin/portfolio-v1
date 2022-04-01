@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400;700;900&family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/ec3ffb5ff5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="nav-bar">
+      <div class="nav-bar__logo">
+        <a href="#home">&lt;devconnor&gt;</a>
+      </div>
+      <div class="nav-bar__links">
+        <a href="#about-me" class="nav-bar__about nav-bar__link">About</a>
+        <a href="#projects" class="nav-bar__work nav-bar__link">My Work</a>
+        <a href="#contact-me" class="nav-bar__contact nav-bar__link">Contact</a>
+        <button class="nav-toggle" aria-label="toggle navigation">
+          <span class="hamburger"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- Main Body -->
+    <section class="intro" id="home">
+      <h1>
+        Howdy<span class="first-accent">,</span> I<span class="second-accent"
+          >'</span
+        >m
+        <span class="intro__name"
+          ><span class="bold">Connor Fadden</span
+          ><span class="first-accent">!</span></span
+        >
+      </h1>
+      <p class="intro__sub-title">front-end dev</p>
+    </section>
+    <!-- Arrow Down -->
+    <a href="#about-me" class="intro__down-arrow"
+      ><i class="fa-solid fa-arrow-down"></i
+    ></a>
+    <!-- About Me -->
+    <section class="about-me" id="about-me">
+      <h2><span class="first-accent">A</span>bout Me</h2>
+      <div class="about-me__grid">
+        <div class="about-me__grid__content" id="about-me-grid-content">
+          <p>Who am I? That's a good question.</p>
+          <p>
+            I'm based in London, UK, and on the surface I'm a junior developer
+            with a background in copywriting. At the core, I'm a creative,
+            humourous and silly individual with a passion for beauty, efficiency
+            and happiness.
+          </p>
+          <p>I have a passion for eggs - yum yum yum!</p>
+          <p>And I own a cactus named Spikes.</p>
+        </div>
+        <div class="about-me__grid__icons">
+          <a class="about-me__btn" id="code-icon-button"
+            ><i class="fa-solid fa-code about-me__grid__icon"></i
+          ></a>
+          <a class="about-me__btn" id="ghost-icon-button"
+            ><i class="fa-solid fa-ghost about-me__grid__icon selected"></i
+          ></a>
+          <a class="about-me__btn" id="leaf-icon-button"
+            ><i class="fa-solid fa-leaf about-me__grid__icon"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2><span class="second-accent">M</span>y Projects</h2>
+      <div class="projects__grid">
+        <div class="project1">
+          <h3>Project <span class="first-accent">1</span></h3>
+          <img class="projects__img" src="img/project-image-01.jpg" />
+        </div>
+        <div class="project2">
+          <h3>Project <span class="second-accent">2</span></h3>
+          <img class="projects__img" src="img/project-image-02.jpg" />
+        </div>
+        <div class="project3">
+          <h3>Project <span class="first-accent">3</span></h3>
+          <img class="projects__img" src="img/project-image-03.jpg" />
+        </div>
+        <div class="project4">
+          <h3>Project <span class="second-accent">4</span></h3>
+          <img class="projects__img" src="img/project-image-04.jpg" />
+        </div>
+        <div class="project5">
+          <h3>Project <span class="first-accent">5</span></h3>
+          <img class="projects__img" src="img/project-image-05.jpg" />
+        </div>
+        <div class="project6">
+          <h3>Project <span class="second-accent">6</span></h3>
+          <img class="projects__img" src="img/project-image-06.jpg" />
+        </div>
+      </div>
+    </section>
+    <!-- Contact Me -->
+    <section class="contact-me" id="contact-me">
+      <h2><span class="first-accent">C</span>ontact Me</h2>
+      <p>
+        Wow! You've come a long way! What a fantastic time to have a chat about
+        anything!
+      </p>
+      <p>
+        Give me a call! Any<span class="first-accent">time</span>, any<span
+          class="second-accent"
+          >where</span
+        >!
+      </p>
+      <p class="footer__link"><i class="fa-solid fa-phone"></i>07964 178 372</p>
+      <p>(Except near the train tracks, my mum doesn't let me play there.)</p>
+      <a href="mailto:connormtfadden@gmail.com" class="footer__link"
+        ><i class="fa-solid fa-envelope"></i>connormtfadden@gmail.com</a
+      >
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://codepen.io">
+            <i class="fab fa-codepen"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="http://linkedin.com">
+            <i class="fab fa-dribbble"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
