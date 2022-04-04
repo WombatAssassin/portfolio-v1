@@ -103,7 +103,6 @@ LAYOUT
 .nav-bar {
   display: flex;
   justify-content: space-between;
-  /* border: red 1px solid; */
   background: var(--primary-color--light);
   padding: 1.25rem;
   margin: 0;
@@ -116,7 +115,6 @@ LAYOUT
 .nav-bar__links {
   display: flex;
   justify-content: space-between;
-  /* border: red 1px solid; */
 }
 
 .nav-bar__link {
@@ -133,7 +131,6 @@ LAYOUT
 }
 
 .nav-bar__logo {
-  /* border: red 1px solid; */
   font-size: 2rem;
 }
 
@@ -189,7 +186,6 @@ LAYOUT
   margin-right: auto;
   max-width: 50%;
   min-height: 80vh;
-  border: red solid 1px;
 }
 
 .intro p {
@@ -213,12 +209,10 @@ LAYOUT
   margin: 0 auto;
   width: 100%;
   text-align: center;
-  border: red 1px solid;
 }
 
 /* About Me */
 .about-me {
-  border: red solid 1px;
   text-align: center;
   margin: 4rem auto;
   padding: 4rem;
@@ -232,7 +226,6 @@ LAYOUT
 .about-me__grid {
   text-align: center;
   margin-top: 2.5rem;
-  border: red 1px solid;
   display: grid;
   grid-template-columns: 2% 96% 2%;
   grid-template-areas:
@@ -242,7 +235,6 @@ LAYOUT
 }
 
 .about-me__grid > * {
-  border: red 1px solid;
 }
 
 .about-me__grid__content {
@@ -285,7 +277,6 @@ LAYOUT
 .projects {
   text-align: center;
   margin: 4rem 0;
-  border: red 1px solid;
 }
 
 .projects > h2 {
@@ -334,7 +325,6 @@ LAYOUT
   color: var(--secondary-color);
   text-align: center;
   padding: 0.3em 0;
-  border: red solid 1px;
   /* margin: 0; */
 }
 
@@ -413,7 +403,6 @@ LAYOUT
   .about-me__grid {
     text-align: center;
     margin-top: 4rem;
-    border: red 1px solid;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-areas:
@@ -447,7 +436,6 @@ LAYOUT
 /* .about-me__grid {
     text-align: center;
     margin-top: 4rem;
-    border: red 1px solid;
     display: grid;
     grid-template-columns: 35% 10% 10% 45%;
     grid-template-areas:
